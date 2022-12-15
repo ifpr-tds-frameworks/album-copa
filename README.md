@@ -1,1 +1,1 @@
-# voa-passarinho-api
+# copa-do-mundo-api
