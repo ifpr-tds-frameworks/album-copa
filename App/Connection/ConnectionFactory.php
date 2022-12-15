@@ -6,9 +6,9 @@ use PDO;
 
 class ConnectionFactory  {
 
-    public $user     = "";
-    public $password = "";
-    public $database = "";
+    public $user     = "root";
+    public $password = "bancodedados";
+    public $database = "db_ifpr_catar_world_cup";
     
     public function getConnection(){
 

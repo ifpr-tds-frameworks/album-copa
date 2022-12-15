@@ -1,7 +1,7 @@
 <?php
 
 use Slim\App;
-use App\Controllers\RecadoController;
+use App\Controllers\TeamController;
 
 $app = new App();
 
@@ -22,6 +22,9 @@ $app->add(function ($req, $res, $next) {
 /**
  * Adicione o mapeamento das rotas para os métodos do controlador de recados nas linhas abaixo
  */
+
+ $app->get   ('/', TeamController::class . ":getAll");
+
 
 
 $app->run();
